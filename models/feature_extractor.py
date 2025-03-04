@@ -17,5 +17,6 @@ def create_feature_extractor():
   model.compile(loss=keras.losses.SparseCategoricalCrossentropy(),
                optimizer=keras.optimizers.Adam(),
                metrics=["accuracy"])
+  return model
 
 # Create feature extractor model, that model's name is model
