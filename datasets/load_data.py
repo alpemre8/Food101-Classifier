@@ -16,7 +16,7 @@ def load_data():
     return tf.cast(image, tf.float32), label
 
 
-  train_data = train_data.map(map_funch=preprocess_img,
+  train_data = train_data.map(map_func=preprocess_img,
                              num_parallel_calls=tf.data.AUTOTUNE)
   train_data = train_data.shuffle(buffer_size=1000).batch(batch_size=32).prefetch(buffer_size=tf.data.AUTOTUNE)
   test_data = test_data.map(map_func=preprocess_img,
