@@ -10,7 +10,7 @@ def load_data():
                                               with_info=True)
 
   
-  def preprocess_img(image;label):
+  def preprocess_img(image, label):
 
     image = tf.image.resize(image, [224, 224])
     return tf.cast(image, tf.float32), label
