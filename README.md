@@ -10,10 +10,10 @@ This repository contains a TensorFlow-based deep learning model for classifying 
    Currently, the repository includes only the core scripts, with plans to add more explanatory content.
 
 Repository Structure
-  load_data.py → Loads and preprocesses the Food101 dataset.
-  create_feature_extractor.py → Initializes EfficientNetB0 as a feature extractor.
-  fine_tune.py → Fine-tunes the model for improved accuracy.
-  requirements.txt → Lists the necessary dependencies.
+  datasets/load_data.py: Loads and preprocesses the Food101 dataset.
+  models/feature_extractor.py: Initializes EfficientNetB0 as a feature extractor.
+  models/fine_tune.py: Fine-tunes the model for improved accuracy.
+  helper_functions/helper_functions.py: Utilize some helper functions to more flexible results.
   [Upcoming] A Jupyter/Colab Notebook with detailed explanations and training results.
 
 Next Steps
