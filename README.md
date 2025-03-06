@@ -12,6 +12,9 @@ This repository contains a TensorFlow-based deep learning model for classifying 
 - Modularized the codebase with separate scripts for data loading, feature extraction, and fine-tuning.
 - Currently, the repository includes only the core scripts, with plans to add more explanatory content.
 
+## Updates
+- **[2025-03-04]** - Initial version of the project has been released.
+
 ## Repository Structure
 
 ```bash
@@ -22,3 +25,4 @@ models/
 ├── fine_tune.py              # Fine-tunes the model for improved accuracy
 helper_functions/
 ├── helper_functions.py       # Contains utility functions for flexible results
+
