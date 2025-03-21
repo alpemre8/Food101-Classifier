@@ -14,6 +14,7 @@ This repository contains a TensorFlow-based deep learning model for classifying 
 
 ## Updates
 - **[2025-03-04]** - Initial version of the project has been released.
+- **[2025-03-21]** - The project is being updated with benchmark improvements.
 
 ## Repository Structure
 
